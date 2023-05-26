@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 // void main() {
@@ -137,36 +136,125 @@ import 'package:flutter/material.dart';
 //   );
 // }
 
+// void main() {
+//   runApp(
+//     MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         appBar: AppBar(
+//           backgroundColor: Color(0xff48416a),
+//           title: Center(
+//             child: Text("Gredient Button"),
+//           ),
+//         ),
+//         body: Container(
+//           color: Color(0xff48416a),
+//           child: Center(
+//             child: Container(
+//               height: 45,
+//               width: 150,
+//               alignment: Alignment.center,
+//               decoration: BoxDecoration(
+//                 gradient: LinearGradient(
+//                   colors: [Colors.purple, Colors.blue],
+//                 ),
+//                 borderRadius: BorderRadius.circular(15),
+//                 shape: BoxShape.rectangle,
+//                 border: Border.all(color: Colors.white, width: 0.9),
+//               ),
+//               child: Text(
+//                 "Flutter",
+//                 style:
+//                 TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     ),
+//   );
+// }
+
+// void main() {
+//   runApp(
+//     MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         appBar: AppBar(
+//           backgroundColor: Color(0xff2294f2),
+//           title: Center(
+//             child: Text("An Indian Flag"),
+//           ),
+//         ),
+//         body: Container(
+//           decoration: BoxDecoration(
+//             gradient: LinearGradient(
+//               colors: [Color(0xff2294f2), Color(0xff3e53b7)],
+//               begin: Alignment.topCenter,
+//               end: Alignment.bottomCenter,
+//             ),
+//           ),
+//           child: Center(
+//             child: Container(
+//               height: 120,
+//               width: 200,
+//               alignment: Alignment.center,
+//               decoration: BoxDecoration(
+//                 gradient: LinearGradient(
+//                   colors: [Colors.deepOrange, Colors.white, Colors.green],
+//                   begin: Alignment.topCenter,
+//                   end: Alignment.bottomCenter,
+//                 ),
+//                 shape: BoxShape.rectangle,
+//                 border: Border.all(color: Colors.white, width: 0.5),
+//               ),
+//               child: Text(
+//                 "⁕",
+//                 style: TextStyle(
+//                     color: Colors.blue,
+//                     fontWeight: FontWeight.bold,
+//                     fontSize: 40),
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     ),
+//   );
+// }
+
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color(0xff48416a),
-          title: Center(
-            child: Text("Gredient Button"),
-          ),
+          backgroundColor: Color(0xff36314f),
+          title: Text("Watch"),
         ),
         body: Container(
-          color: Color(0xff48416a),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xff36314f), Color(0xff2295f3)],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            ),
+          ),
           child: Center(
             child: Container(
-              height: 45,
+              height: 50,
               width: 150,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [Colors.purple, Colors.blue],
-                ),
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(20),
                 shape: BoxShape.rectangle,
-                border: Border.all(color: Colors.white, width: 0.9),
+                color: Color(0xff4c76ab),
               ),
               child: Text(
                 "Flutter",
-                style:
-                    TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
             ),
           ),
